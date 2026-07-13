@@ -58,7 +58,7 @@ image = cv2.imread(filepath)
             
 
             return f"""
-            <div styile="text-align: center; font-family: Tahoma; direction: rtl; padding: 50px;">
+            <div style="text-align: center; font-family: Tahoma; direction: rtl; padding: 50px;">
                 <h2>پردازش با موفقیت انجام شد!</h2>
                 <p>تعداد چهره های شناسایی شده:<b>{len(faces)}</b></p>
                 <p>تصویر با کادر سبز در پوشه پروژه ذخیره شد.</p>
